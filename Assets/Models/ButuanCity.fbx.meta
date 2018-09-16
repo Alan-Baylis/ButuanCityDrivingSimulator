@@ -6,20 +6,132 @@ ModelImporter:
     100000: //RootNode
     100002: Cube
     100004: Road
+    100006: Cube.001
+    100008: Cube.002
+    100010: Cube.003
+    100012: Cube.004
+    100014: Cube.005
+    100016: Cube.006
+    100018: Cube.007
+    100020: Cube.008
+    100022: Cube.009
+    100024: Cube.010
+    100026: Cathedral
+    100028: Dunkin
+    100030: FSUU
+    100032: GuingonaPark
+    100034: JMarketing
+    100036: OverPassFSUU
+    100038: Palawan
+    100040: PoliceStation
+    100042: UriosGym
+    100044: GuingonaPark.001
+    100046: GuingonaPark.002
+    100048: GuingonaPark.003
     400000: //RootNode
     400002: Cube
     400004: Road
+    400006: Cube.001
+    400008: Cube.002
+    400010: Cube.003
+    400012: Cube.004
+    400014: Cube.005
+    400016: Cube.006
+    400018: Cube.007
+    400020: Cube.008
+    400022: Cube.009
+    400024: Cube.010
+    400026: Cathedral
+    400028: Dunkin
+    400030: FSUU
+    400032: GuingonaPark
+    400034: JMarketing
+    400036: OverPassFSUU
+    400038: Palawan
+    400040: PoliceStation
+    400042: UriosGym
+    400044: GuingonaPark.001
+    400046: GuingonaPark.002
+    400048: GuingonaPark.003
     2100000: No Name
     2100002: Material
     2100004: Material.001
+    2100006: BuildingsTexture
+    2100008: RoadTexture
     2300000: //RootNode
     2300002: Cube
     2300004: Road
+    2300006: Cube.001
+    2300008: Cube.002
+    2300010: Cube.003
+    2300012: Cube.004
+    2300014: Cube.005
+    2300016: Cube.006
+    2300018: Cube.007
+    2300020: Cube.008
+    2300022: Cube.009
+    2300024: Cube.010
+    2300026: Cathedral
+    2300028: Dunkin
+    2300030: FSUU
+    2300032: GuingonaPark
+    2300034: JMarketing
+    2300036: OverPassFSUU
+    2300038: Palawan
+    2300040: PoliceStation
+    2300042: UriosGym
+    2300044: GuingonaPark.001
+    2300046: GuingonaPark.002
+    2300048: GuingonaPark.003
     3300000: //RootNode
     3300002: Cube
     3300004: Road
+    3300006: Cube.001
+    3300008: Cube.002
+    3300010: Cube.003
+    3300012: Cube.004
+    3300014: Cube.005
+    3300016: Cube.006
+    3300018: Cube.007
+    3300020: Cube.008
+    3300022: Cube.009
+    3300024: Cube.010
+    3300026: Cathedral
+    3300028: Dunkin
+    3300030: FSUU
+    3300032: GuingonaPark
+    3300034: JMarketing
+    3300036: OverPassFSUU
+    3300038: Palawan
+    3300040: PoliceStation
+    3300042: UriosGym
+    3300044: GuingonaPark.001
+    3300046: GuingonaPark.002
+    3300048: GuingonaPark.003
     4300000: Road
     4300002: Cube
+    4300004: Cube.003
+    4300006: Cube.002
+    4300008: Cube.001
+    4300010: Cube.004
+    4300012: Cube.006
+    4300014: Cube.005
+    4300016: Cube.007
+    4300018: Cube.010
+    4300020: Cube.009
+    4300022: Cube.008
+    4300024: Dunkin
+    4300026: FSUU
+    4300028: OverPassFSUU
+    4300030: UriosGym
+    4300032: PoliceStation
+    4300034: Cathedral
+    4300036: Palawan
+    4300038: GuingonaPark
+    4300040: JMarketing
+    4300042: GuingonaPark.001
+    4300044: GuingonaPark.003
+    4300046: GuingonaPark.002
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
