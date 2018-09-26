@@ -5,18 +5,13 @@ using TMPro;
 
 public class RoadSign : MonoBehaviour {
 
-    [SerializeField]
-    private RoadSignType signType;
-    [SerializeField]
-    private int speed;
-    [SerializeField]
-    private SpeedLimitArea speedLimitArea;
-    [SerializeField]
-    private NoParkingArea noParkingArea;
-    [SerializeField]
-    private List<GameObject> models;
-
-    private TextMeshProUGUI text;
+    
+    public RoadSignType signType;
+    public int speed;
+    public SpeedLimitArea speedLimitArea;
+    public NoParkingArea noParkingArea;
+    public List<GameObject> models;
+    public TextMeshProUGUI text;
 
     void Awake() {
         InstantiateModel();
@@ -32,7 +27,8 @@ public class RoadSign : MonoBehaviour {
 	}
 
     void SetSpeedLimit() {
-        speedLimitArea.SetSpeedLimit(speed);
+        if(speedLimitArea != null) 
+            speedLimitArea.SetSpeedLimit(speed);
     }
 
     void InstantiateModel() {
