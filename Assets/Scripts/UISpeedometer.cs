@@ -26,8 +26,12 @@ public class UISpeedometer : MonoBehaviour {
 
     void UpdateSpeedText() 
     {
-        int speed = (int) carToTrack.GetSpeed();
-        speedText.text = speed.ToString() + " km/h";
-        speedometer.fillAmount = (float) speed / 125;
+        if(carToTrack != null) {
+            int speed = (int) carToTrack.GetSpeed();
+            speedText.text = speed.ToString() + " km/h";
+            speedometer.fillAmount = (float) speed / 125;
+            return;
+        }
+        carToTrack = FindObjectOfType<CarController>();
     }
 }

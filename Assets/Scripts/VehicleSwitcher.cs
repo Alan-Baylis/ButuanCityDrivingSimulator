@@ -27,7 +27,6 @@ public class VehicleSwitcher : MonoBehaviour {
 	private void SpawnVehicle(GameObject selectedVehicle)
     {
         GameObject spawned = (GameObject)Instantiate(selectedVehicle, vehiclePosition, Quaternion.Euler(rotation.x, rotation.y, rotation.z));
-        CarController car = spawned.GetComponent<CarController>();
         Transform thirdPersonHelper = spawned.transform.Find("Helpers").Find("ThirdPersonCamera");
         Transform firstPersonHelper = spawned.transform.Find("Helpers").Find("FirstPersonCamera");
 

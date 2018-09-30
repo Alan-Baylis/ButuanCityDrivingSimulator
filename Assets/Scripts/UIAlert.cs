@@ -7,7 +7,9 @@ public class UIAlert : MonoBehaviour {
 	public bool autoClose;
 
 	public void Close() {
-		Destroy(gameObject);
+		if(autoClose) {
+			Destroy(gameObject);
+		}
 	}
 
 	void Start() {
