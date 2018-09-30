@@ -30,4 +30,14 @@ public class CameraController : MonoBehaviour {
         LookAtTarget();
         MoveToTarget();
     }
+
+    public void SwitchCamera() {
+		bool state = true;
+		Camera camera = GetComponent<Camera>();
+		if(camera.enabled) {
+			state = false;
+		}
+		camera.GetComponent<AudioListener>().enabled = state;
+		camera.enabled = state;
+	}
 }
