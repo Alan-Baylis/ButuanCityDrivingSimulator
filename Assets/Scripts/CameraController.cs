@@ -24,6 +24,9 @@ public class CameraController : MonoBehaviour {
     }
 
     private void FixedUpdate() {
+        if(target == null) {
+            return;
+        }
         LookAtTarget();
         MoveToTarget();
     }
