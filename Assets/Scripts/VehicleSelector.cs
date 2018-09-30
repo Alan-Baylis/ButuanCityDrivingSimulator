@@ -5,6 +5,7 @@ using UnityStandardAssets.Vehicles.Car;
 public class VehicleSelector : MonoBehaviour {
 
 	public Vector3 vehiclePosition;
+	public Vector3 rotation;
 
 	public Camera mainCamera;
 	public Camera secondaryCamera;
@@ -29,7 +30,7 @@ public class VehicleSelector : MonoBehaviour {
 
 	private void SpawnVehicle(GameObject selectedVehicle)
     {
-        GameObject spawned = (GameObject)Instantiate(selectedVehicle, vehiclePosition, Quaternion.identity);
+        GameObject spawned = (GameObject)Instantiate(selectedVehicle, vehiclePosition, Quaternion.Euler(rotation.x, rotation.y, rotation.z));
         CarController car = spawned.GetComponent<CarController>();
         Transform thirdPersonHelper = spawned.transform.Find("Helpers").Find("ThirdPersonCamera");
         
