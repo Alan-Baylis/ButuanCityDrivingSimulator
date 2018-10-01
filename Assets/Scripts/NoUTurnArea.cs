@@ -10,6 +10,7 @@ public class NoUTurnArea : CarSensor {
 
     void Awake() {
         forward = transform.TransformDirection(Vector3.forward);
+        Debug.Log(forward, gameObject);
     }
 
     public override void OnTriggerEnter(Collider collider) {
@@ -19,8 +20,12 @@ public class NoUTurnArea : CarSensor {
 
     public override void OnTriggerExit(Collider collider) {
         Vector3 colliderForward = g.transform.forward * Mathf.RoundToInt(entranceDot);
-        exitDot = Vector3.Dot(colliderForward, forward) * Mathf.RoundToInt(entranceDot);
-        
+        exitDot = Vector3.Dot(colliderForward, forward);
+
+        Debug.Log("Collider Forward: " + colliderForward);
+        Debug.Log("Entrance: " + entranceDot);
+        Debug.Log("Exit: " + exitDot);
+
         if(exitDot > -0.5 && exitDot < 0.5 && colliderForward.x  > 0) {
             Debug.Log("Right-Turn");
         } else if(exitDot > -0.4 && exitDot < 0.4 && colliderForward.x < 0) {

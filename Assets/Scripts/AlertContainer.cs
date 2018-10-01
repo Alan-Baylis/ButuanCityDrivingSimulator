@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class AlertContainer : MonoBehaviour {
 
@@ -43,7 +44,7 @@ public class AlertContainer : MonoBehaviour {
 		GameObject alert = (GameObject) Instantiate(Instance.alertPrefab);
 		Instance.violations.Add(text);
 		alert.GetComponent<UIAlert>().autoClose = autoClose;
-		alert.GetComponentInChildren<Text>().text = text;
+		alert.GetComponentInChildren<TextMeshProUGUI>().text = text;
 		return alert;
 	}
 }

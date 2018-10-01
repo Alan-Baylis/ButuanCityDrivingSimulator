@@ -21,7 +21,7 @@ public class RightWay : CarSensor {
         Debug.Log(Vector3.Dot(forward, other));
         if(Vector3.Dot(forward, other) < -0.8f) {
             if(!alerted) {
-                AlertContainer.NewAlert("Counter Flow");
+                AlertContainer.NewAlert("Counter Flow - Php 1,500");
                 alerted = true;
             }
         }

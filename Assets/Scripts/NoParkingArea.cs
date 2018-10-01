@@ -9,10 +9,15 @@ public class NoParkingArea : CarSensor {
     private float waitTime = 5;
 
     private float timeLeft;
+
+    private bool alerted;
 	
 	// Update is called once per frame
 	void Update () {
-        if(g == null) return;
+        if(g == null) {
+            alerted = false;
+            return;
+        }
         
         int speed = (int) g.GetComponentInParent<CarController>().GetSpeed();
 
@@ -22,8 +27,9 @@ public class NoParkingArea : CarSensor {
             timeLeft = waitTime;
         }
 
-        if(timeLeft <= 0) {
-            Debug.Log("No Parking " + speed);
+        if(timeLeft <= 0 && !alerted) {
+            AlertContainer.NewAlert("No Parking - Php 1,500");
+            alerted = true;
         }
 	}
 }

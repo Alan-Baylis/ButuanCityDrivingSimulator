@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 114888519074778762}
   - component: {fileID: 114239580847910108}
   m_Layer: 0
-  m_Name: Triuck
+  m_Name: Truck
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -95,6 +95,18 @@ ModelImporter:
     100178: pSphere9
     100180: //RootNode
     100182: trafficlight
+    100184: Go
+    100186: Post
+    100188: Ready
+    100190: Stop
+    100192: Post.001
+    100194: Housing
+    100196: GoPrimary
+    100198: GoSecondary
+    100200: ReadyPrimary
+    100202: ReadySecondary
+    100204: StopPrimary
+    100206: StopSecondary
     400000: Camera
     400002: Lamp
     400004: pCube1
@@ -187,6 +199,18 @@ ModelImporter:
     400178: pSphere9
     400180: //RootNode
     400182: trafficlight
+    400184: Go
+    400186: Post
+    400188: Ready
+    400190: Stop
+    400192: Post.001
+    400194: Housing
+    400196: GoPrimary
+    400198: GoSecondary
+    400200: ReadyPrimary
+    400202: ReadySecondary
+    400204: StopPrimary
+    400206: StopSecondary
     2000000: Camera
     2100000: phong9
     2100002: phong8
@@ -206,6 +230,7 @@ ModelImporter:
     2100030: phong20
     2100032: phong2
     2100034: phong5
+    2100036: Material
     2300000: pCube1
     2300002: pCube15
     2300004: pCube22
@@ -295,6 +320,19 @@ ModelImporter:
     2300172: pSphere8
     2300174: pSphere9
     2300176: trafficlight
+    2300178: //RootNode
+    2300180: Go
+    2300182: Post
+    2300184: Ready
+    2300186: Stop
+    2300188: Post.001
+    2300190: Housing
+    2300192: GoPrimary
+    2300194: GoSecondary
+    2300196: ReadyPrimary
+    2300198: ReadySecondary
+    2300200: StopPrimary
+    2300202: StopSecondary
     3300000: pCube1
     3300002: pCube15
     3300004: pCube22
@@ -384,6 +422,19 @@ ModelImporter:
     3300172: pSphere8
     3300174: pSphere9
     3300176: trafficlight
+    3300178: //RootNode
+    3300180: Go
+    3300182: Post
+    3300184: Ready
+    3300186: Stop
+    3300188: Post.001
+    3300190: Housing
+    3300192: GoPrimary
+    3300194: GoSecondary
+    3300196: ReadyPrimary
+    3300198: ReadySecondary
+    3300200: StopPrimary
+    3300202: StopSecondary
     4300000: pPipe89
     4300002: pPipe88
     4300004: pPipe87
@@ -473,6 +524,18 @@ ModelImporter:
     4300172: pCylinder1
     4300174: pCube1
     4300176: trafficlight
+    4300178: Stop
+    4300180: Go
+    4300182: Ready
+    4300184: Post
+    4300186: Post.001
+    4300188: Housing
+    4300190: GoSecondary
+    4300192: ReadySecondary
+    4300194: StopSecondary
+    4300196: ReadyPrimary
+    4300198: GoPrimary
+    4300200: StopPrimary
     10800000: Lamp
     2186277476908879412: ImportLogs
   externalObjects: {}
