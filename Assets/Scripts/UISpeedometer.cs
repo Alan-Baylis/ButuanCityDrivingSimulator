@@ -10,12 +10,12 @@ public class UISpeedometer : MonoBehaviour {
     [SerializeField]
     private Image speedometer;
     
-    private CarController carToTrack;
+    private CustomCarUserControl carToTrack;
 
 	// Use this for initialization
 	void Start()
     {
-        carToTrack = FindObjectOfType<CarController>();
+        carToTrack = FindObjectOfType<CustomCarUserControl>();
     }
 
     // Update is called once per frame
@@ -27,11 +27,11 @@ public class UISpeedometer : MonoBehaviour {
     void UpdateSpeedText() 
     {
         if(carToTrack != null) {
-            int speed = (int) carToTrack.GetSpeed();
+            int speed = (int) carToTrack.GetComponent<CarController>().GetSpeed();
             speedText.text = speed.ToString() + " km/h";
             speedometer.fillAmount = (float) speed / 125;
             return;
         }
-        carToTrack = FindObjectOfType<CarController>();
+        carToTrack = FindObjectOfType<CustomCarUserControl>();
     }
 }
