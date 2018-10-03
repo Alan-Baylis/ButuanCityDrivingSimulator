@@ -50,4 +50,8 @@ public class UIMenuManager : MonoBehaviour {
 	public void MountainButton() {
 		SceneManager.LoadScene("Mountain");
 	}
+
+	public void OutCityButton() {
+		SceneManager.LoadScene("OutCity");
+	}
 }
