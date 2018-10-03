@@ -14,10 +14,24 @@ public class VehicleSwitcher : MonoBehaviour {
 	public GameObject carPrefab;
 	public GameObject truckPrefab;
 
+	public GameObject spawned;
+
 	public void SpawnCar() 
     {
 		SpawnVehicle(carPrefab);
 	}
+
+    public void SetPositionAndRotation() {
+        spawned.transform.position = vehiclePosition;
+        spawned.transform.localRotation = Quaternion.Euler(rotation.x, rotation.y, rotation.z);
+        ResetSpeed();
+    }
+
+    private void ResetSpeed() {
+        if(spawned != null) {
+            spawned.GetComponent<CarController>().ResetSpeed();
+        }
+    }
 
 	public void SpawnTruck() 
     {
@@ -26,7 +40,8 @@ public class VehicleSwitcher : MonoBehaviour {
 
 	private void SpawnVehicle(GameObject selectedVehicle)
     {
-        GameObject spawned = (GameObject)Instantiate(selectedVehicle, vehiclePosition, Quaternion.Euler(rotation.x, rotation.y, rotation.z));
+        spawned = (GameObject)Instantiate(selectedVehicle);
+        SetPositionAndRotation();
         Transform thirdPersonHelper = spawned.transform.Find("Helpers").Find("ThirdPersonCamera");
         Transform firstPersonHelper = spawned.transform.Find("Helpers").Find("FirstPersonCamera");
 

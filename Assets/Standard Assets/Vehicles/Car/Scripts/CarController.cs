@@ -369,6 +369,12 @@ namespace UnityStandardAssets.Vehicles.Car
             return false;
         }
 
+        public void ResetSpeed() {
+            if(m_Rigidbody != null) {
+                m_Rigidbody.velocity = Vector3.zero;
+            }
+        }
+
         public double GetSpeed() {
             switch (m_SpeedType)
             {
