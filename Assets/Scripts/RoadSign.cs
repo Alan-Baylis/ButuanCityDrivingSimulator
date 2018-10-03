@@ -37,6 +37,7 @@ public class RoadSign : MonoBehaviour {
             if(model.name.Equals(signType.ToString())) {
                 GameObject sign = Instantiate(model, transform.position, Quaternion.identity);
                 sign.transform.SetParent(transform);
+                sign.transform.localRotation = Quaternion.identity;
                 return;
             }
         }
