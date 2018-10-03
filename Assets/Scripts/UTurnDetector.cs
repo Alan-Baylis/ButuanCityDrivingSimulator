@@ -3,26 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class UTurnDetector : MonoBehaviour {
-	List<UTurnDetector> uTurnDetectors;
+	List<UTurnIdentifier> uTurnIdentifiers;
 
 	private void Start() {
-		uTurnDetectors = new List<UTurnDetector>();
+		uTurnIdentifiers = new List<UTurnIdentifier>();
 	}
 
 	private void OnTriggerEnter(Collider other) {
-		UTurnDetector detector = other.GetComponent<UTurnDetector>();
+		UTurnIdentifier detector = other.GetComponent<UTurnIdentifier>();
 		if(detector == null) {
-			uTurnDetectors.Clear();
 			return;
 		}
-		uTurnDetectors.Add(detector);
+		uTurnIdentifiers.Add(detector);
 		Detect();
 	}
 
 	private void Detect() {
-		if(uTurnDetectors.Count == 3) {
-			Debug.Log("U-TUrn");
-			uTurnDetectors.Clear();
+		if(uTurnIdentifiers.Count == 3) {
+			if(uTurnIdentifiers[0].index != 1 
+				|| uTurnIdentifiers[1].index != 2 
+				|| uTurnIdentifiers[2].index != 3) {
+				uTurnIdentifiers.Clear();
+			}
+			if(uTurnIdentifiers[0].index == 1 
+				&& uTurnIdentifiers[1].index == 2 
+				&& uTurnIdentifiers[2].index == 3) {
+				AlertContainer.NewAlert("U-Turn - Php 1,500");
+				uTurnIdentifiers.Clear();
+			}
 		}
 	}
 }
