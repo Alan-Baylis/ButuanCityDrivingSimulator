@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TurnNotificationDetector : MonoBehaviour {
 
-	public Direction direction;
+	public Sign sign;
 
 	private UITurnNotification turnNotification;
 
@@ -21,14 +21,35 @@ public class TurnNotificationDetector : MonoBehaviour {
         Vector3 other = collider.transform.forward;
         
         if(Vector3.Dot(forward, other) > 0) {
-			if(direction == Direction.Left) {
-				SetNotificationContent("Prepare to turn left in curve road", turnNotification.sourceImages[0]);
-				turnNotification.Show();
-				return;
+			string message = "";
+			Sprite image = null;
+			switch(sign) {
+				case Sign.LeftTurn:
+					message = "Prepare to turn left in curve road";
+					image = turnNotification.sourceImages[0];
+					break;
+				case Sign.RightTurn: 
+					message = "Prepare to turn right in curve road"; 
+					image = turnNotification.sourceImages[1];
+					break;
+				case Sign.Deadend:
+					message = "Prepare to slow down, dead end ahead"; 
+					image = turnNotification.sourceImages[2];
+					break;
+				case Sign.Pedestrian:
+					message = "Prepare to slow down, predestrian crossing ahead"; 
+					image = turnNotification.sourceImages[3];
+					break;
+				case Sign.School:
+					message = "Prepare to slowdown School Zone ahead"; 
+					image = turnNotification.sourceImages[4];
+					break;
+				default: 
+					Debug.Log("Nothing");
+					break;
 			}
-			SetNotificationContent("Prepare to turn right in curve road", turnNotification.sourceImages[1]);
+			SetNotificationContent(message, image);
 			turnNotification.Show();
-			return;
         }
 	}
 
@@ -38,6 +59,10 @@ public class TurnNotificationDetector : MonoBehaviour {
 	}
 }
 
-public enum Direction {
-	Left, Right
+public enum Sign {
+	LeftTurn, 
+	RightTurn, 
+	Pedestrian, 
+	School,
+	Deadend
 }

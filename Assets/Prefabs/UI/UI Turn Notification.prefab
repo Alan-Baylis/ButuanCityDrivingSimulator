@@ -122,6 +122,9 @@ MonoBehaviour:
   sourceImages:
   - {fileID: 21300000, guid: 56b75c0c35475894593fdc772bc85c3d, type: 3}
   - {fileID: 21300000, guid: 4dc1556e78be674478e2621369312eaa, type: 3}
+  - {fileID: 21300000, guid: 504f7636d9da24a4795605f75dc8b146, type: 3}
+  - {fileID: 21300000, guid: a5489648a5c359448aa41ecba5656c8d, type: 3}
+  - {fileID: 21300000, guid: 864b38a3d45804c4485128bcdbfeb6dc, type: 3}
 --- !u!114 &114253946565960954
 MonoBehaviour:
   m_ObjectHideFlags: 1
