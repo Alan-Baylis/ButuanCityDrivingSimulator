@@ -28,9 +28,8 @@ public class UIMenuManager : MonoBehaviour {
 		playScreen.DOAnchorPos(new Vector2(canvas.rect.width, 10), .25f);
 	}
 
-	public void HelpScreenButton() {
-		mainScreen.DOAnchorPos(new Vector2(-mainScreen.rect.width, 10), 0.25f);
-		helpScreen.DOAnchorPos3D(onScreenPosition, 0.25f);
+	public void QuitButton() {
+		Application.Quit();
 	}
 
 	public void PlayScreenButton() {
