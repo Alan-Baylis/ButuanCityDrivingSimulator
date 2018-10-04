@@ -15,16 +15,19 @@ public class UTurnDetector : MonoBehaviour {
 			return;
 		}
 		uTurnIdentifiers.Add(detector);
+		for (int i = 0; i < uTurnIdentifiers.Count; i++)
+		{
+			Debug.Log(uTurnIdentifiers[i].index);
+			if(uTurnIdentifiers[i].index != i + 1) {
+				uTurnIdentifiers.Clear();
+				return;
+			}	
+		}
 		Detect();
 	}
 
 	private void Detect() {
 		if(uTurnIdentifiers.Count == 3) {
-			if(uTurnIdentifiers[0].index != 1 
-				|| uTurnIdentifiers[1].index != 2 
-				|| uTurnIdentifiers[2].index != 3) {
-				uTurnIdentifiers.Clear();
-			}
 			if(uTurnIdentifiers[0].index == 1 
 				&& uTurnIdentifiers[1].index == 2 
 				&& uTurnIdentifiers[2].index == 3) {

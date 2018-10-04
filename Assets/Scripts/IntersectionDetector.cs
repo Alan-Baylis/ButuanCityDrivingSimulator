@@ -11,7 +11,6 @@ public class IntersectionDetector : MonoBehaviour {
 	}
 
 	private void OnTriggerEnter(Collider other) {
-		Debug.Log("Enter");
 		IntersectionIdentifier otherID = 
 			other.GetComponent<IntersectionIdentifier>();
 

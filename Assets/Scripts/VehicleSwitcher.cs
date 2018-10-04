@@ -5,8 +5,7 @@ using UnityEngine;
 using UnityStandardAssets.Vehicles.Car;
 public class VehicleSwitcher : MonoBehaviour {
 
-	public Vector3 vehiclePosition;
-	public Vector3 rotation;
+	public Transform vehicleTransform;
 
 	public CameraController mainCamera;
 	public CameraController secondaryCamera;
@@ -22,8 +21,8 @@ public class VehicleSwitcher : MonoBehaviour {
 	}
 
     public void SetPositionAndRotation() {
-        spawned.transform.position = vehiclePosition;
-        spawned.transform.localRotation = Quaternion.Euler(rotation.x, rotation.y, rotation.z);
+        spawned.transform.position = vehicleTransform.position;
+        spawned.transform.localRotation = vehicleTransform.rotation;
         ResetSpeed();
     }
 

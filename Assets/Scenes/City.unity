@@ -27534,7 +27534,7 @@ Prefab:
     - target: {fileID: 224790924528490996, guid: 1b1dee19cc764174cb5e7de4f2b4d6f8,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 37.99997
+      value: 37.999878
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1b1dee19cc764174cb5e7de4f2b4d6f8, type: 2}
@@ -30293,6 +30293,11 @@ Prefab:
       propertyPath: UISpeedometer
       value: 
       objectReference: {fileID: 1248347485}
+    - target: {fileID: 114891374530891970, guid: 82da02d22b7b46146ad096fcab8e6ffc,
+        type: 2}
+      propertyPath: vehicleTransform
+      value: 
+      objectReference: {fileID: 1969876339}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82da02d22b7b46146ad096fcab8e6ffc, type: 2}
   m_IsPrefabParent: 0
@@ -31304,7 +31309,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4515238860817062, guid: bc506eb47cda4dd4eb880e5e5aaccdcb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -33.64
+      value: -33.3
       objectReference: {fileID: 0}
     - target: {fileID: 4515238860817062, guid: bc506eb47cda4dd4eb880e5e5aaccdcb, type: 2}
       propertyPath: m_LocalPosition.y
@@ -31312,7 +31317,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4515238860817062, guid: bc506eb47cda4dd4eb880e5e5aaccdcb, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 92.702
+      value: 90.4
       objectReference: {fileID: 0}
     - target: {fileID: 4515238860817062, guid: bc506eb47cda4dd4eb880e5e5aaccdcb, type: 2}
       propertyPath: m_LocalRotation.x
@@ -31344,7 +31349,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4515238860817062, guid: bc506eb47cda4dd4eb880e5e5aaccdcb, type: 2}
       propertyPath: m_LocalScale.x
-      value: 8.179609
+      value: 14.71
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 33281543135732362, guid: bc506eb47cda4dd4eb880e5e5aaccdcb, type: 2}
@@ -33069,6 +33074,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   g: {fileID: 0}
+--- !u!1 &1969876338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1969876339}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1969876339
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1969876338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -42.3, y: 0, z: 75.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1970888509
 Prefab:
   m_ObjectHideFlags: 0

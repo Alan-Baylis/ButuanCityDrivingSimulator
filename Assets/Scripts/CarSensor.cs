@@ -8,7 +8,9 @@ public class CarSensor : MonoBehaviour {
     public GameObject g;
 
     public virtual void OnTriggerEnter(Collider collider) {
-        g = collider.gameObject;
+        if(collider.gameObject.GetComponentInParent<CustomCarUserControl>() != null) {
+            g = collider.gameObject;
+        }
     }
 
     public virtual void OnTriggerExit(Collider collider) {
