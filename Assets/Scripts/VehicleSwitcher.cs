@@ -21,15 +21,15 @@ public class VehicleSwitcher : MonoBehaviour {
 	}
 
     public void SetPositionAndRotation() {
+        if(spawned == null)
+            spawned = FindObjectOfType<CustomCarUserControl>().gameObject;
         spawned.transform.position = vehicleTransform.position;
         spawned.transform.localRotation = vehicleTransform.rotation;
         ResetSpeed();
     }
 
     private void ResetSpeed() {
-        if(spawned != null) {
-            spawned.GetComponent<CarController>().ResetSpeed();
-        }
+        spawned.GetComponent<CarController>().ResetSpeed();
     }
 
 	public void SpawnTruck() 
