@@ -1300,6 +1300,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 20811708470784618, guid: 795667321646cb749b867ddad76f9d0b,
+        type: 2}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294963199
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 795667321646cb749b867ddad76f9d0b, type: 2}
   m_IsPrefabParent: 0
@@ -2511,6 +2516,11 @@ Prefab:
         type: 2}
       propertyPath: panLimitMin.y
       value: -395
+      objectReference: {fileID: 0}
+    - target: {fileID: 20273488554400880, guid: 8807b4de57f9d1b4989875dd58c845ca,
+        type: 2}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294963167
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8807b4de57f9d1b4989875dd58c845ca, type: 2}
@@ -6546,6 +6556,11 @@ Prefab:
     - target: {fileID: 4350081604791290, guid: e6fba0ac31374b14884907179fbfb233, type: 2}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20481648462028024, guid: e6fba0ac31374b14884907179fbfb233,
+        type: 2}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294962175
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e6fba0ac31374b14884907179fbfb233, type: 2}

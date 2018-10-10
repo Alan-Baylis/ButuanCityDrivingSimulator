@@ -19,7 +19,7 @@ public class TurnNotificationDetector : MonoBehaviour {
 	void NotifyDirection(Collider collider) {
 		Vector3 forward = transform.forward;
         Vector3 other = collider.transform.forward;
-        
+        if(collider.GetComponentInParent<CustomCarUserControl>() == null) return;
         if(Vector3.Dot(forward, other) > 0) {
 			string message = "";
 			Sprite image = null;
