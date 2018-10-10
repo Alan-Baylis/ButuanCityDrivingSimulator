@@ -211,6 +211,13 @@ namespace UnityStandardAssets.Vehicles.Car
             }
         }
 
+        public void HoldBrake() {
+            m_Driving = false;
+        }
+
+        public void ReleaseBrake() {
+            m_Driving = true;
+        }
 
         public void SetTarget(Transform target)
         {

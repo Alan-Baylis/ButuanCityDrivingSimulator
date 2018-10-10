@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4633459624082622}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: RearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +35,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4550601241589216}
   - component: {fileID: 137838129101480598}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Cylinder001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,7 +50,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4272577637179334}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rim_Tire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   - component: {fileID: 146528982867189968}
   - component: {fileID: 82909209645705570}
   - component: {fileID: 114170748000156416}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: WheelHubRearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4310159676770968}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: RearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4047308833546376}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rim_Size
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ GameObject:
   - component: {fileID: 4553192269198038}
   - component: {fileID: 33176746954380816}
   - component: {fileID: 23407097278080082}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Trunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4669173108826878}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rim_Size
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 4243067958376842}
   - component: {fileID: 33583033890553272}
   - component: {fileID: 23352020368104712}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Window_F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4485502393069754}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +177,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4244622301816848}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ThirdPersonCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +196,10 @@ GameObject:
   - component: {fileID: 114883207068553586}
   - component: {fileID: 114694985284672462}
   - component: {fileID: 114356839695648574}
-  m_Layer: 0
+  - component: {fileID: 114204136321604654}
+  - component: {fileID: 82992430798152680}
+  - component: {fileID: 114987458007103870}
+  m_Layer: 13
   m_Name: CarAI
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -213,7 +216,7 @@ GameObject:
   - component: {fileID: 4214105628458350}
   - component: {fileID: 33831271943447830}
   - component: {fileID: 23448504908780162}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Door_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +234,7 @@ GameObject:
   - component: {fileID: 146769631868035520}
   - component: {fileID: 82080187699932046}
   - component: {fileID: 114785319024617266}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: WheelHubFrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,7 +249,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4031590849009834}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Wheels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +266,7 @@ GameObject:
   - component: {fileID: 4368096456990756}
   - component: {fileID: 33771950864645864}
   - component: {fileID: 23157040543125912}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_LightGlass_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +281,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4259375939997632}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rim_Tire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +296,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4333773474687154}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rim_Size
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -310,7 +313,7 @@ GameObject:
   - component: {fileID: 4594195864076070}
   - component: {fileID: 33057023856929094}
   - component: {fileID: 23351786017602074}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Window_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +331,7 @@ GameObject:
   - component: {fileID: 146983154174113326}
   - component: {fileID: 82285652430158170}
   - component: {fileID: 114504208383970454}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: WheelHubFrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4817011391048812}
   - component: {fileID: 108182672300587722}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: HeadlightLeftSpot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +364,7 @@ GameObject:
   - component: {fileID: 4384926998451142}
   - component: {fileID: 33719150787028360}
   - component: {fileID: 23483593545540754}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4324843782605158}
   - component: {fileID: 137310190177922036}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Cylinder001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +395,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4724983836325772}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: FrontRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -407,7 +410,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4244542283414870}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rim_Tire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -424,7 +427,7 @@ GameObject:
   - component: {fileID: 4201455855215136}
   - component: {fileID: 33742330349810400}
   - component: {fileID: 23421901616632824}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Door_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -441,7 +444,7 @@ GameObject:
   - component: {fileID: 4252549897021946}
   - component: {fileID: 33552127049406164}
   - component: {fileID: 23336279466752996}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Dashboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -458,7 +461,7 @@ GameObject:
   - component: {fileID: 4840215790901616}
   - component: {fileID: 33960972957003102}
   - component: {fileID: 23610232561771304}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Window_LF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -474,7 +477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4610908600054438}
   - component: {fileID: 137030888724851044}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Cylinder001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -492,7 +495,7 @@ GameObject:
   - component: {fileID: 33753880771030922}
   - component: {fileID: 23404751720277482}
   - component: {fileID: 95838677290470324}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Bumper_B_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -507,8 +510,23 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4184771612461408}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Helpers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1666804182430318
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4814992930852408}
+  m_Layer: 13
+  m_Name: WaypointTargetObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -524,7 +542,7 @@ GameObject:
   - component: {fileID: 4757621412620286}
   - component: {fileID: 198998215016117046}
   - component: {fileID: 199024589674333590}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ParticleBurnoutSmoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4545211200047276}
   - component: {fileID: 137144310745919856}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Cylinder001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -558,7 +576,7 @@ GameObject:
   - component: {fileID: 33882637930935888}
   - component: {fileID: 23127021691966516}
   - component: {fileID: 95186832352190060}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_SidePanel_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +593,7 @@ GameObject:
   - component: {fileID: 4990256884166536}
   - component: {fileID: 33056222321754628}
   - component: {fileID: 23950130561526510}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -590,7 +608,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4782442578372380}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,7 +623,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4905484921751878}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: WheelsHubs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -620,7 +638,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4054844341920892}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -637,7 +655,7 @@ GameObject:
   - component: {fileID: 4421860040879260}
   - component: {fileID: 33319213214330318}
   - component: {fileID: 23446038049073298}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Window_RB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -654,7 +672,7 @@ GameObject:
   - component: {fileID: 4725499939345012}
   - component: {fileID: 33335095338007576}
   - component: {fileID: 23794485261508402}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Window_LB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -669,7 +687,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4169761286108476}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: FrontLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -686,7 +704,7 @@ GameObject:
   - component: {fileID: 4285659936683230}
   - component: {fileID: 33277374497973762}
   - component: {fileID: 23616563441576340}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Window_RF
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -701,7 +719,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4116010471162236}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rim_Tire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -719,7 +737,7 @@ GameObject:
   - component: {fileID: 146713409680372454}
   - component: {fileID: 82535766636547010}
   - component: {fileID: 114625895323778688}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: WheelHubRearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -736,7 +754,7 @@ GameObject:
   - component: {fileID: 4874747759736296}
   - component: {fileID: 33875867994619440}
   - component: {fileID: 65155819195893060}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ColliderBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -752,7 +770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4863523122774988}
   - component: {fileID: 108168632616850206}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: HeadlighRightSpot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -770,7 +788,7 @@ GameObject:
   - component: {fileID: 33307748497242980}
   - component: {fileID: 23828769803216892}
   - component: {fileID: 114141067809954762}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Taillights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -787,7 +805,7 @@ GameObject:
   - component: {fileID: 4056847022031788}
   - component: {fileID: 33440704590186402}
   - component: {fileID: 23945344958283688}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_LightGlass_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -805,7 +823,7 @@ GameObject:
   - component: {fileID: 33385608245008492}
   - component: {fileID: 23112834276237096}
   - component: {fileID: 95529012798490758}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Bumper_F_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -820,7 +838,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4515934782050948}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: SkyCar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -837,7 +855,7 @@ GameObject:
   - component: {fileID: 4097163176157152}
   - component: {fileID: 33459529603803674}
   - component: {fileID: 23987847048632366}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Classic_16_Hood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -852,7 +870,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4256774881851142}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: FirstPersonCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -867,7 +885,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4693537652115956}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Rim_Size
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -976,8 +994,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1837832763653286}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.85, y: 0.32299805, z: 1.4960022}
+  m_LocalRotation: {x: 0.8362635, y: 0.03833766, z: -0.058956265, w: 0.5437994}
+  m_LocalPosition: {x: -0.8500011, y: 0.34438273, z: 1.4959991}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4610908600054438}
@@ -998,6 +1016,7 @@ Transform:
   m_Children:
   - {fileID: 4244622301816848}
   - {fileID: 4256774881851142}
+  - {fileID: 4814992930852408}
   m_Father: {fileID: 4750705752692462}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1137,8 +1156,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1086257552610598}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.85, y: 0.32299805, z: -1.4000015}
+  m_LocalRotation: {x: 0.845089, y: -0, z: 0.0000000054660627, w: 0.5346256}
+  m_LocalPosition: {x: -0.85001063, y: 0.34420955, z: -1.3999988}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4324843782605158}
@@ -1395,8 +1414,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1012088237298792}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8499999, y: 0.32299805, z: -1.4000015}
+  m_LocalRotation: {x: 0.9854971, y: -0, z: -0.000000010896883, w: -0.16969237}
+  m_LocalPosition: {x: 0.8500025, y: 0.34595326, z: -1.3999994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4550601241589216}
@@ -1450,8 +1469,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1480997229730276}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8499999, y: 0.32299805, z: 1.4960022}
+  m_LocalRotation: {x: 0.99360484, y: -0.006227902, z: -0.07004877, w: -0.088339515}
+  m_LocalPosition: {x: 0.8500121, y: 0.34612644, z: 1.4959985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4545211200047276}
@@ -1480,7 +1499,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1293626851519642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 390.53894, y: 0.002380371, z: -444.677}
+  m_LocalPosition: {x: -155.2, y: 0, z: 1.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4054844341920892}
@@ -1499,7 +1518,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1720569164421052}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-  m_LocalPosition: {x: 0, y: 0.30642498, z: 0}
+  m_LocalPosition: {x: -0.85000736, y: -0.047000013, z: 1.496}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4485502393069754}
@@ -1518,6 +1537,19 @@ Transform:
   - {fileID: 4817011391048812}
   - {fileID: 4863523122774988}
   m_Father: {fileID: 4750705752692462}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4814992930852408
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1666804182430318}
+  m_LocalRotation: {x: -0.00011928645, y: 0.16278918, z: 0.00054601807, w: 0.9866608}
+  m_LocalPosition: {x: 2.5304005, y: -0.021781826, z: 3.9304998}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4184771612461408}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4817011391048812
@@ -2836,6 +2868,101 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!82 &82992430798152680
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1293626851519642}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 03e3bd08a6e70684dbe299a3e185fdd2, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 0.33468923
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 0
+  MinDistance: 5
+  MaxDistance: 456.13
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!95 &95186832352190060
 Animator:
   serializedVersion: 3
@@ -2987,6 +3114,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkidTrailPrefab: {fileID: 400000, guid: 4b6aa99de5d21424eab6ae279f31475b, type: 2}
   skidParticles: {fileID: 198998215016117046}
+--- !u!114 &114204136321604654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1293626851519642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5cb22d331ef7d64796f917c6a455a32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  circuit: {fileID: 0}
+  lookAheadForTargetOffset: 5
+  lookAheadForTargetFactor: 0.1
+  lookAheadForSpeedOffset: 10
+  lookAheadForSpeedFactor: 0.2
+  progressStyle: 0
+  pointToPointThreshold: 4
+  target: {fileID: 4814992930852408}
 --- !u!114 &114356839695648574
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2998,21 +3144,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d963df58504b69045b8d0d746ba6f777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CautiousSpeedFactor: 0.05
+  m_CautiousSpeedFactor: 0.15
   m_CautiousMaxAngle: 50
   m_CautiousMaxDistance: 100
   m_CautiousAngularVelocityFactor: 30
   m_SteerSensitivity: 0.05
   m_AccelSensitivity: 0.04
-  m_BrakeSensitivity: 1
+  m_BrakeSensitivity: 20
   m_LateralWanderDistance: 3
   m_LateralWanderSpeed: 0.1
   m_AccelWanderAmount: 0.1
   m_AccelWanderSpeed: 0.1
   m_BrakeCondition: 2
   m_Driving: 1
-  m_Target: {fileID: 0}
-  m_StopWhenTargetReached: 1
+  m_Target: {fileID: 4814992930852408}
+  m_StopWhenTargetReached: 0
   m_ReachTargetThreshold: 2
 --- !u!114 &114504208383970454
 MonoBehaviour:
@@ -3116,6 +3262,20 @@ MonoBehaviour:
   m_RevRangeBoundary: 1
   m_SlipLimit: 0.5
   m_BrakeTorque: 20000
+--- !u!114 &114987458007103870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1293626851519642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6698652a3bb4c54fa7a138b494bbec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mask:
+    serializedVersion: 2
+    m_Bits: 8192
 --- !u!137 &137030888724851044
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

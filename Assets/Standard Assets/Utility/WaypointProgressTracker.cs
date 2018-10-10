@@ -136,6 +136,9 @@ namespace UnityStandardAssets.Utility
             }
         }
 
+        public void SetWaypointCircuit(WaypointCircuit circuit) {
+            this.circuit = circuit;
+        }
 
         private void OnDrawGizmos()
         {

@@ -6,6 +6,8 @@ public class Minimap : MonoBehaviour {
 
     private Transform car;
 
+    public Transform target;
+
     public bool rotateEnabled;
 	
 	// Update is called once per frame
@@ -21,6 +23,7 @@ public class Minimap : MonoBehaviour {
 	}
 
     void Update() {
+        if(target != null) car = target;
         if(car == null && FindObjectOfType<CustomCarUserControl>() != null)
             car = FindObjectOfType<CustomCarUserControl>().transform;
     }
