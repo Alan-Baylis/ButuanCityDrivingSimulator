@@ -4178,8 +4178,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 8, z: 1}
-  m_Center: {x: 0, y: 4, z: 0}
+  m_Size: {x: 1, y: 30, z: 1}
+  m_Center: {x: 0, y: 15, z: 0}
 --- !u!65 &65281327745108838
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -4226,8 +4226,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 8, z: 1}
-  m_Center: {x: 0, y: 4, z: 0}
+  m_Size: {x: 1, y: 30, z: 1}
+  m_Center: {x: 0, y: 15, z: 0}
 --- !u!65 &65581728712864890
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -4238,8 +4238,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 8, z: 1}
-  m_Center: {x: 0, y: 4, z: 0}
+  m_Size: {x: 1, y: 30, z: 1}
+  m_Center: {x: 0, y: 15, z: 0}
 --- !u!65 &65823333962027980
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -4262,8 +4262,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 8, z: 1}
-  m_Center: {x: 0, y: 4, z: 0}
+  m_Size: {x: 1, y: 30, z: 1}
+  m_Center: {x: 0, y: 15, z: 0}
 --- !u!114 &114039770133605454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4294,8 +4294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4c0af518e7e8124cb77130446f9eb4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  greenDuration: 10
-  yellowDuration: 2
+  greenDuration: 20
+  yellowDuration: 3
 --- !u!114 &114076610063927098
 MonoBehaviour:
   m_ObjectHideFlags: 1

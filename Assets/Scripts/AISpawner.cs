@@ -29,6 +29,7 @@ public class AISpawner : MonoBehaviour {
         yield return new WaitForSeconds(delayInSeconds);
         int randomIndex = Random.Range(0,2);
         GameObject aiVechicle = Instantiate(vehicles[randomIndex], transform.position, transform.rotation);
+        aiVechicle.transform.parent = gameObject.transform;
         aiVechicle.GetComponent<WaypointProgressTracker>().SetWaypointCircuit(waypointCircuit);
         vehicleCount += 1;
         coroutine = StartCoroutine(SpawnCar(delayInSeconds));

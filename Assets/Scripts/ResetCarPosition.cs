@@ -10,7 +10,6 @@ public class ResetCarPosition : MonoBehaviour {
     private GameObject mainCanvas;
     private GameObject resetPositionCanvas;
 
-	// Use this for initialization
 	void Awake () {
         resetPositionCanvas = GameObject.Find("ResetPositionCanvas");
         mainCanvas = GameObject.Find("MainCanvas");
@@ -48,9 +47,11 @@ public class ResetCarPosition : MonoBehaviour {
     }
 
     public void ResetPosition() {
+        Debug.Log(resetPositionCanvas);
+        mainCanvas.SetActive(false);
         topDownCamera.gameObject.SetActive(true);
         resetPositionCanvas.SetActive(true);
-        mainCanvas.SetActive(false);
+        
     }
 
     public void CloseCanvas() {
