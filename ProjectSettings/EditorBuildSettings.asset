@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mountain.unity
     guid: 853a952f74367694e932d93865a16ba7
+  - enabled: 1
+    path: Assets/Scenes/Ambulance.unity
+    guid: b305b75db882d6443a6853dfb8a27d5d
   m_configObjects: {}

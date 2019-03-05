@@ -45,6 +45,10 @@ public class UIMenuManager : MonoBehaviour {
 	public void CityButton() {
 		SceneManager.LoadScene("City");
 	}
+
+	public void AmbulanceButton() {
+		SceneManager.LoadScene("Ambulance");
+	}
 	
 	public void MountainButton() {
 		SceneManager.LoadScene("Mountain");
