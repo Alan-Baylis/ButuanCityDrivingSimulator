@@ -2,21 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AlertAmbulance : MonoBehaviour {
+public class AlertBrokenLine : MonoBehaviour {
     
     public bool isDoneAnnounce;
-    private UIAmbulanceAlert alert;
+    private UIBrokenLineAlert alert;
 
 	void Start() {
-		alert = FindObjectOfType<UIAmbulanceAlert>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+		alert = FindObjectOfType<UIBrokenLineAlert>();
 	}
 
-    
+    void OnTriggerEnter(Collider collider) {
+        Announce();
+    }
 
     public void Announce() {
         if(!alert.isOpen)

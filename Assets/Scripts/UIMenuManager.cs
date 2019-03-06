@@ -57,4 +57,20 @@ public class UIMenuManager : MonoBehaviour {
 	public void OutCityButton() {
 		SceneManager.LoadScene("OutCity");
 	}
+
+	public void BrokenLine() {
+		SceneManager.LoadScene("BrokenLine");
+	}
+
+	public void BrokenLineAndSolidLine() {
+		SceneManager.LoadScene("BrokenLineAndSolidLine");
+	}
+
+	public void DoubleSolidLine() {
+		SceneManager.LoadScene("DoubleSolidLine");
+	}
+
+	public void SingleYellowLine() {
+		SceneManager.LoadScene("SingleYellowLine");
+	}
 }
