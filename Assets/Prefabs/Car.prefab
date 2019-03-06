@@ -471,6 +471,7 @@ GameObject:
   - component: {fileID: 114782077993629554}
   - component: {fileID: 114022787638097118}
   - component: {fileID: 114312499947982922}
+  - component: {fileID: 114655524094709256}
   m_Layer: 13
   m_Name: Car
   m_TagString: Player
@@ -3080,6 +3081,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkidTrailPrefab: {fileID: 400000, guid: 4b6aa99de5d21424eab6ae279f31475b, type: 2}
   skidParticles: {fileID: 198609056129650430}
+--- !u!114 &114655524094709256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1463248005453368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a5d54dfc9c3544281bcf09d8e5c777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDoneAnnounce: 0
 --- !u!114 &114669709866837458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3091,6 +3104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aec0f4772673c9842a152f321c28cfad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speedLimit: 41
 --- !u!114 &114782077993629554
 MonoBehaviour:
   m_ObjectHideFlags: 1
