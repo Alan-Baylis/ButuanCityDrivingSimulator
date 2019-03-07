@@ -1097,7 +1097,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 24197359}
-        m_MethodName: AmbulanceButton
+        m_MethodName: DoubleSolidLine
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3491,7 +3491,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 24197359}
-        m_MethodName: AmbulanceButton
+        m_MethodName: SingleYellowLine
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3613,7 +3613,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 24197359}
-        m_MethodName: AmbulanceButton
+        m_MethodName: BrokenLine
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5295,7 +5295,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 24197359}
-        m_MethodName: AmbulanceButton
+        m_MethodName: BrokenLineAndSolidLine
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
