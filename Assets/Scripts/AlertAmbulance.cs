@@ -20,7 +20,7 @@ public class AlertAmbulance : MonoBehaviour {
 
     public void Announce() {
         if(!alert.isOpen)
-            isDoneAnnounce = true;
+            // isDoneAnnounce = true;
             alert.Show();
     }
 }

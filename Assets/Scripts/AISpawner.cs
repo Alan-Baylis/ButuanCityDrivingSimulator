@@ -27,7 +27,7 @@ public class AISpawner : MonoBehaviour {
     IEnumerator SpawnCar(float delayInSeconds) {
         delayInSeconds = Random.Range((float)delayInSeconds-2, (float)delayInSeconds+2);
         yield return new WaitForSeconds(delayInSeconds);
-        int randomIndex = Random.Range(0,2);
+        int randomIndex = Random.Range(0,vehicles.Length);
         GameObject aiVechicle = Instantiate(vehicles[randomIndex], transform.position, transform.rotation);
         aiVechicle.transform.parent = gameObject.transform;
         aiVechicle.GetComponent<WaypointProgressTracker>().SetWaypointCircuit(waypointCircuit);
